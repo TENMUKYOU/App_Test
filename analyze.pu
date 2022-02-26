@@ -1,0 +1,6 @@
+@startuml analyze
+
+User -> View:冷蔵庫の中身を確認
+View -> Protector:関数を読み出し
+
+@enduml
