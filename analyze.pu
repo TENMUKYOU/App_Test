@@ -9,4 +9,5 @@ Model --> Presenter: データ読出
 Presenter --> View: Viewに表示する関数を抽出する
 View --> User: 冷蔵庫に足りない食材を表示
 
+/''/
 @enduml
