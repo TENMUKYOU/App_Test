@@ -1,5 +1,6 @@
 @startuml analyze
 
+/'冷蔵庫の中身を見るとき'/
 User -> View: 冷蔵庫の中身を確認
 View -> Presenter: データベースを読み出す関数を宣言
 Presenter -> Model: データ参照
@@ -7,4 +8,5 @@ Presenter -> Model: データ参照
 Model --> Presenter: データ読出
 Presenter --> View: Viewに表示する関数を抽出する
 View --> User: 冷蔵庫に足りない食材を表示
+
 @enduml
